@@ -22,28 +22,25 @@ long big_number= 1234567890;
 unsigned long u_long= 1234567890;
 
 ```
-					// Print- Output
+				// Print- Output
 PR_I(num);			// test.c - 17 | 10
 PR_F(dec);			// test.c - 18 | 1.020000
-PR_L(big_number);	// test.c - 19 | 1234567890
-PR_U_L(u_long);		// test.c - 20 | 1234567890
+PR_L(big_number);		// test.c - 19 | 1234567890
+PR_U_L(u_long);			// test.c - 20 | 1234567890
 ```
 
 ```
-				// Print- Output
-PR_C(alphabet);	// test.c - 22 | b
+PR_C(alphabet);		// test.c - 22 | b
 PR_S(str);		// test.c - 23 | Alakazam
 ```
 
 ```
-					// Print- Output
 PR_V_I(num);		// test.c - 31 | num = 10
 PR_V_F(dec);		// test.c - 32 | dec = 1.020000
-PR_V_L(big_number); // test.c - 33 | big_number = 1234567890
+PR_V_L(big_number); 	// test.c - 33 | big_number = 1234567890
 PR_V_U_L(u_long);	// test.c - 34 | u_long = 1234567890
 ```
 ```
-					// Print- Output
 PR_V_C(alphabet);	// test.c - 36 | alphabet = b
 PR_V_S(str);		// test.c - 37 | str = Alakazam
 ```
