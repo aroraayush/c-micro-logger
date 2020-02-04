@@ -29,9 +29,9 @@ PR_U_L(u_long);
 ```
 
 > Output
-test.c - 17 | 10
-test.c - 18 | 1.020000
-test.c - 19 | 1234567890
+> test.c - 17 | 10
+> test.c - 18 | 1.020000
+> test.c - 19 | 1234567890
 test.c - 20 | 1234567890
 
 ```
@@ -39,8 +39,8 @@ PR_C(alphabet);
 PR_S(str);
 ```
 > Output
-test.c - 22 | b
-test.c - 23 | Alakazam
+> test.c - 22 | b
+> test.c - 23 | Alakazam
 
 printf("\n\n****************************************************************************\n");
 printf("Printing variable names and their values\n");
@@ -55,16 +55,16 @@ PR_V_U_L(u_long);
 ```
 > Output
 
-test.c - 31 | num = 10
-test.c - 32 | dec = 1.020000
-test.c - 33 | big_number = 1234567890
-test.c - 34 | u_long = 1234567890
+> test.c - 31 | num = 10
+> test.c - 32 | dec = 1.020000
+> test.c - 33 | big_number = 1234567890
+> test.c - 34 | u_long = 1234567890
 
 ```
 PR_V_C(alphabet);
 PR_V_S(str);
 ```
 > Output
-test.c - 36 | alphabet = b
-test.c - 37 | str = Alakazam
+> test.c - 36 | alphabet = b
+> test.c - 37 | str = Alakazam
 
