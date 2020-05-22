@@ -13,13 +13,14 @@ Please look at the `test.c` file to see how to use the header file.
 ---
 
 Example:
-
+```
 int num = 10;
 char alphabet = 'b';
 char str[10]="Alakazam";
 float dec = 1.02f;
 long big_number= 1234567890;
 unsigned long u_long= 1234567890;
+```
 
 ```
 				// Print- Output
