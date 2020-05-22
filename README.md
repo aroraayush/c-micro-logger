@@ -22,6 +22,7 @@ long big_number= 1234567890;
 unsigned long u_long= 1234567890;
 ```
 ### Logging variables in your C files
+##### Priting values only
 ```
 				// Print- Output
 PR_I(num);			// test.c - 17 | 10
@@ -34,7 +35,7 @@ PR_U_L(u_long);			// test.c - 20 | 1234567890
 PR_C(alphabet);		// test.c - 22 | b
 PR_S(str);		// test.c - 23 | Alakazam
 ```
-
+##### Priting values with variable names
 ```
 PR_V_I(num);		// test.c - 31 | num = 10
 PR_V_F(dec);		// test.c - 32 | dec = 1.020000
