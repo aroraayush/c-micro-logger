@@ -22,6 +22,9 @@ long big_number= 1234567890;
 unsigned long u_long= 1234567890;
 ```
 ### Logging variables in your C files
+
+> I = integer | F = float | L = long | U_L = unsigned long | C = character | S = string
+
 ##### Priting values only
 ```
 				// Print- Output
